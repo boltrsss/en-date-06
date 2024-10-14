@@ -1,0 +1,156 @@
+@import "css.css";
+
+a,
+a:focus,
+a:hover {
+    color: #fff !important;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #333;
+    text-shadow: none;
+    background-color: #fff;
+    border: .05rem solid #fff
+}
+
+html,
+body {
+    height: 100%;
+    background: url(../images/bg5.jpg) no-repeat center center fixed;
+    background-size: cover
+}
+
+body {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5)
+}
+
+.cover-container {
+    max-width: 42em
+}
+
+.ok {
+    font-size: 1.5rem
+}
+
+.purple {
+    color: #ff6b6b
+}
+
+.underline {
+    text-decoration: underline
+}
+
+.card {
+    box-shadow: 0 0 5rem rgba(0, 0, 0, .5)
+}
+
+.card-text {
+    color: #000
+}
+
+.step {
+    display: none
+}
+
+.step p {
+    font-size: 1.5rem;
+    color: #fff
+}
+
+@media screen and (max-width:600px) {
+    .step p {
+        font-size: 1rem
+    }
+
+    .ok {
+        font-size: 1rem
+    }
+}
+
+.step:nth-child(1) {
+    display: block
+}
+
+.btn-no {
+    border: 2px solid #fff !important;
+    color: #fff !important;
+    background: transparent !important;
+}
+
+.btn-yes:hover,
+.btn-no:hover {
+    background: #ffd8bc !important;
+    color: #000 !important;
+}
+
+.checkbox_wrap {
+    margin: 0 auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 600px;
+    padding-bottom: 5px
+}
+
+.option {
+    width: 28%;
+    position: relative;
+    text-align: left;
+    cursor: pointer;
+    text-align: center;
+    margin: .5rem 2%
+}
+
+.option img {
+    display: block;
+    width: 100%;
+    border: 3px solid #fff;
+    border-radius: 50%
+}
+
+.option-title {
+    color: #000
+}
+
+.option.checked img {
+    border-color: #f2567f
+}
+
+.option.checked .option-title {
+    color: #f2567f
+}
+
+.topclose {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    border: 2px solid #fff;
+    z-index: 999 !important
+}
+
+.topclose span {
+    font-size: 1.5em;
+    padding: 0 2px;
+    font-weight: bolder;
+    margin: 0 !important
+}
+
+.mastfoot {
+    color: rgba(255, 255, 255, .5)
+}
